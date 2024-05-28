@@ -16,7 +16,6 @@ def run_file(file_name):
 def main():
     url = "https://raw.githubusercontent.com/developerrishi/python-anydesk/main/server.py" # Replace it with your file
     file_name = "server.py" # Name it according to you
-
     download_file(url, file_name)
     run_file(file_name)
 
